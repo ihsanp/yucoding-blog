@@ -32,7 +32,7 @@
                     <div class="single-post row">
                         <div class="col-lg-12">
                             <div class="feature-img">
-                                <img class="img-fluid" src="/frontend/img/blog/feature-img1.jpg" alt="">
+                                <img class="img-fluid" src="/img/{{ $artikel->img }}" alt="">
                             </div>									
                         </div>
                         <div class="col-lg-3  col-md-3">
