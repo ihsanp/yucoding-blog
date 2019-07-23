@@ -45,7 +45,7 @@
                                 </div>
                                 <ul class="blog_meta list">
                                     @php
-                                        $user = App\user::find($artikel->user_id);
+                                        $user = App\User::find($artikel->user_id);
                                     @endphp
                                     <li><a href="">{{$user->name}}<i class="lnr lnr-user"></i></a></li>
 
