@@ -33,8 +33,8 @@ Route::middleware(['auth'])->group(function() {
 
     Route::get('/artikel', 'ArtikelController@index')->name('artikel');
     Route::post('/artikel', 'ArtikelController@tambah')->name('tambah_artikel');
-    Route::post('/artikel/edit', 'ArtikelController@edit')->name('edit-artikel');
-    Route::post('/artikel/delete', 'ArtikelController@delete')->name('delete-artikel');
+    Route::post('/artikel/edit', 'ArtikelController@edit')->name('edit_artikel');
+    Route::post('/artikel/delete', 'ArtikelController@delete')->name('delete_artikel');
     Route::get('/komentar', 'KomentarController@index')->name('komentar');
 
 
